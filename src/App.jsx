@@ -11,6 +11,8 @@ import UseDebugValueExample from './hooks/UseDebugValueExample';
 import UseTransitionExample from './hooks/UseTransitionExample';
 import UseDeferredValueExample from './hooks/UseDeferredValueExample';
 
+import Counter from './features/counter/Counter';
+
 function App() {
   return (
     <div style={{ padding: 20 }}>
@@ -27,6 +29,9 @@ function App() {
       <UseDebugValueExample />
       <UseTransitionExample />
       <UseDeferredValueExample />
+
+      <h1>Redux Example Here</h1>
+      <Counter />
     </div>
   );
 }
