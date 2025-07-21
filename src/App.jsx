@@ -13,6 +13,8 @@ import UseDeferredValueExample from './hooks/UseDeferredValueExample';
 
 import Counter from './features/counter/Counter';
 
+import ZustandCounter from './features/zustand/ZustandCounter';
+
 function App() {
   return (
     <div style={{ padding: 20 }}>
@@ -32,6 +34,9 @@ function App() {
 
       <h1>Redux Example Here</h1>
       <Counter />
+
+      <h1>Zustand Example</h1>
+      <ZustandCounter />
     </div>
   );
 }

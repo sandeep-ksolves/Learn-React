@@ -7,7 +7,7 @@ const Counter = () => {
   const dispatch = useDispatch();
 
   return (
-    <div>
+    <div style={{ border: '1px solid #ccc', padding: 10, marginTop: 20 }}>
       <p>Redux Count: {count}</p>
       <button onClick={() => dispatch(increment())}>+</button>
       <button onClick={() => dispatch(decrement())}>-</button>
